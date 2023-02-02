@@ -8,7 +8,7 @@ fn = '/Users/samuelrussell/Documents/GitHub/Data_Visualisation/Stuttgart_station
 df = pd.read_csv(fn)
 print('The length of the dataframe is:', len(df))
 print()
-print(df.head(10)) # replace the text here
+print(df.head(10))
 
 # Clean (replace no data value of 999.9 with np.nan)
 
